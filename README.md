@@ -1,6 +1,6 @@
 # [Symfony 4.4] API REST: OAuth2 + FOS
 
-#####The API we are creating in this gist will follow these rules :
+#### The API we are creating in this gist will follow these rules :
 
 - [x] The API only returns JSON responses
 - [x] All API routes require authentication
