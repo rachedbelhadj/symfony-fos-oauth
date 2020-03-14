@@ -1,5 +1,7 @@
 # [Symfony 4.4] API REST: OAuth2 + FOS
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/764e61ad03e542a89e995e5e3db5d251)](https://app.codacy.com/manual/belhadj.rached/symfony-fos-oauth?utm_source=github.com&utm_medium=referral&utm_content=rachedbelhadj/symfony-fos-oauth&utm_campaign=Badge_Grade_Dashboard)
+
 #### The API we are creating in this gist will follow these rules :
 
 - [x] The API only returns JSON responses
