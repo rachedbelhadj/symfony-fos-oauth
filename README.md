@@ -10,10 +10,10 @@
 
 ### Update database access
 
-DATABASE_NAME="demo"
-DATABASE_USER="root"
-DATABASE_PASSWORD="root"
-DATABASE_PORT=3306
+DATABASE_NAME="demo"<br/>
+DATABASE_USER="root"<br/>
+DATABASE_PASSWORD="root"<br/>
+DATABASE_PORT=3306<br/>
 
 ### Install bundles
 
