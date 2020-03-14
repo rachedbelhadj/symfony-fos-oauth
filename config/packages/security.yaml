@@ -1,0 +1,29 @@
+security:
+    encoders:
+        FOS\UserBundle\Model\UserInterface: sha512
+    providers:
+        fos_userbundle:
+            id: fos_user.user_provider.username
+
+    firewalls:
+        oauth_token:
+            pattern:    ^/oauth/v2/token
+            security:   false
+
+        #oauth_authorize:
+            #pattern:    ^/oauth/v2/auth
+            # Add your favorite authentication process here
+        doc:
+            pattern: ^/api/doc
+            fos_oauth: false
+            stateless: true
+            anonymous: true
+        api:
+            pattern:    ^/api
+            fos_oauth:  true
+            stateless:  true
+            anonymous:  false # can be omitted as its default value
+
+    access_control:
+        - { path: ^/api/doc, roles: [ IS_AUTHENTICATED_ANONYMOUSLY ] }
+        - { path: ^/api, roles: [ IS_AUTHENTICATED_FULLY ] }

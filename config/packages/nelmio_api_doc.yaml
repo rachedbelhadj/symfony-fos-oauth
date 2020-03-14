@@ -1,0 +1,14 @@
+nelmio_api_doc:
+    name: API
+    sandbox:
+        enabled: true
+        authentication:
+            delivery: http
+            type: bearer
+        body_format:
+            formats: [ json, form ]             # array of enabled body formats,
+            default_format: json
+    swagger:
+        api_base_path:        /api
+        swagger_version:      '1.2'
+        api_version:          '0.1'
