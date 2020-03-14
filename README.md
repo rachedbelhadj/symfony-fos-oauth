@@ -8,6 +8,13 @@
 
 `cp env.dest .env`
 
+### Update database access
+
+DATABASE_NAME="demo"
+DATABASE_USER="root"
+DATABASE_PASSWORD="root"
+DATABASE_PORT=3306
+
 ### Install bundles
 
 `composer install`
