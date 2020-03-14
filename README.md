@@ -1,5 +1,18 @@
 # [Symfony 4.4] API REST: OAuth2 + FOS
 
+#####The API we are creating in this gist will follow these rules :
+
+- [x] The API only returns JSON responses
+- [x] All API routes require authentication
+- [x] Authentication is handled via OAuth2 with `password` Grant Type only (no need for Authorization pages and such).
+- [x] API versioning is managed via a subdomain (e.g. `v1.api.example.com`)
+
+The API will be written in PHP 7.2 with the Symfony 4.4 framework. The following SF2 bundles are used :
+
+- https://github.com/FriendsOfSymfony/FOSUserBundle
+- https://github.com/FriendsOfSymfony/FOSOAuthServerBundle
+- https://github.com/FriendsOfSymfony/FOSRestBundle
+
 ### Clone project from GitHub
 
 `git clone git@github.com:rachedbelhadj/symfony_fos_oauth.git`
