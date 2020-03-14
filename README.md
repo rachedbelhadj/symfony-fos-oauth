@@ -19,11 +19,11 @@ DATABASE_PORT=3306<br/>
 
 `composer install`
 
-### Create schema data base
+### Create schema database
 
 `bin/console doctrine:schema:update --force`
 
-### Reload fixture data
+### Reload data fixture
 
 `bin/console doctrine:fixture:load`
 
